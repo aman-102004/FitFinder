@@ -1,0 +1,6 @@
+.workout-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:1rem}
+.day-card{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:1.2rem}
+.day-label{font-family:var(--display);font-size:1.1rem;color:var(--red);letter-spacing:1px;margin-bottom:.8rem}
+.ex-list{list-style:none}
+.ex-list li{color:var(--muted);font-size:.83rem;padding:5px 0;border-bottom:1px solid rgba(255,255,255,.04);display:flex;align-items:center;gap:7px}
+.ex-list li::before{content:'';width:6px;height:6px;background:var(--red);border-radius:50%;flex-shrink:0}

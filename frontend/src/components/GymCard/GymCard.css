@@ -1,0 +1,14 @@
+.gym-card{background:var(--card);border:1px solid var(--border);border-radius:12px;overflow:hidden;cursor:pointer;transition:border-color .2s,transform .2s}
+.gym-card:hover{border-color:rgba(224,48,48,.4);transform:translateY(-3px)}
+.gym-img{height:130px;background:var(--bg3);display:flex;align-items:center;justify-content:center;font-size:3rem;position:relative}
+.gym-badge{position:absolute;top:10px;right:10px;background:var(--red);color:#fff;font-size:.7rem;font-weight:600;padding:3px 10px;border-radius:20px}
+.gym-body{padding:1.2rem}
+.gym-name{font-weight:600;font-size:1rem;margin-bottom:.3rem}
+.gym-loc{color:var(--muted);font-size:.82rem;margin-bottom:.8rem}
+.gym-meta{display:flex;justify-content:space-between;align-items:center;margin-bottom:.8rem}
+.gym-fee{color:var(--red);font-weight:700;font-size:1rem}
+.gym-rating{color:#f0a500;font-size:.88rem}
+.gym-tags{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:1rem}
+.tag{background:rgba(255,255,255,.05);border:1px solid var(--border);color:var(--muted);font-size:.7rem;padding:3px 10px;border-radius:20px}
+.btn-view{width:100%;background:transparent;color:var(--red);border:1px solid rgba(224,48,48,.4);padding:.55rem;font-size:.88rem;font-weight:600;border-radius:7px;transition:background .2s,color .2s}
+.btn-view:hover{background:var(--red);color:#fff;border-color:var(--red)}

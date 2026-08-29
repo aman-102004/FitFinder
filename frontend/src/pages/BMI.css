@@ -1,0 +1,29 @@
+.bmi-section{max-width:680px}
+.bmi-card{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:2rem;margin-bottom:1.5rem}
+.bmi-grid{display:grid;grid-template-columns:1fr 1fr;gap:.8rem 1rem;margin-bottom:1.2rem}
+.bmi-full{grid-column:1/-1}
+.bmi-btn{width:100%;padding:.85rem;font-size:1rem}
+.bmi-result{margin-top:1.8rem;text-align:center;animation:fadeUp .4s ease both}
+.bmi-num{font-family:var(--display);font-size:5rem;line-height:1;letter-spacing:2px}
+.bmi-cat{font-size:1.1rem;font-weight:600;margin:.4rem 0 .2rem}
+.bmi-tip{color:var(--muted);font-size:.85rem;margin-bottom:1.2rem}
+.bar-wrap{margin:1rem 0 1.5rem}
+.bar-bg{height:10px;background:var(--bg3);border-radius:5px;overflow:hidden;margin-bottom:.4rem}
+.bar-fill{height:100%;border-radius:5px;transition:width .6s ease}
+.bar-labels{display:flex;justify-content:space-between;font-size:.72rem;color:var(--muted)}
+.bmi-stats{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin-bottom:1.2rem;text-align:left}
+.bmi-stat{background:var(--bg3);border:1px solid var(--border);border-radius:10px;padding:1rem}
+.stat-label{color:var(--muted);font-size:.75rem;text-transform:uppercase;letter-spacing:.5px;margin-bottom:4px}
+.stat-val{font-size:1.3rem;font-weight:700;color:var(--red)}
+.stat-sub{color:var(--muted);font-size:.75rem;margin-top:2px}
+.bmi-advice{background:rgba(224,48,48,.08);border:1px solid rgba(224,48,48,.2);border-radius:10px;padding:1.2rem;text-align:left}
+.bmi-advice h4{color:var(--red);margin-bottom:.7rem}
+.bmi-advice ul{list-style:none;display:flex;flex-direction:column;gap:5px}
+.bmi-advice li{color:var(--muted);font-size:.85rem;padding-left:1rem;position:relative}
+.bmi-advice li::before{content:'→';color:var(--red);position:absolute;left:0}
+.bmi-table-card{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:1.5rem}
+.bmi-table{width:100%;border-collapse:collapse;font-size:.88rem}
+.bmi-table th{text-align:left;padding:.6rem 0;color:var(--muted);font-weight:500;border-bottom:1px solid var(--border)}
+.bmi-table td{padding:.6rem 0;border-bottom:1px solid rgba(255,255,255,.04)}
+.bmi-table tr:last-child td{border-bottom:none}
+@media(max-width:500px){.bmi-grid{grid-template-columns:1fr}.bmi-stats{grid-template-columns:1fr}}

@@ -1,0 +1,15 @@
+.plan-header{display:flex;align-items:center;gap:1rem;flex-wrap:wrap;margin-bottom:1.5rem}
+.plan-header h2{font-family:var(--display);font-size:1.8rem;letter-spacing:1px}
+.kcal-pill{background:var(--red-glow);border:1px solid rgba(224,48,48,.25);color:var(--red);font-size:.8rem;font-weight:600;padding:4px 12px;border-radius:20px}
+.meal-list{border:1px solid var(--border);border-radius:12px;overflow:hidden;margin-bottom:1.5rem}
+.meal-row{display:flex;align-items:flex-start;gap:1.5rem;padding:.9rem 1.2rem;border-bottom:1px solid var(--border);background:var(--card);transition:background .15s}
+.meal-row:last-child{border-bottom:none}
+.meal-row:hover{background:var(--bg3)}
+.meal-time{color:var(--red);font-size:.78rem;font-weight:600;min-width:140px;text-transform:uppercase;letter-spacing:.3px;padding-top:2px;flex-shrink:0}
+.meal-food{color:var(--text);font-size:.9rem;line-height:1.5}
+.tips-box{background:rgba(224,48,48,.08);border:1px solid rgba(224,48,48,.2);border-radius:10px;padding:1.2rem 1.5rem}
+.tips-box h3{color:var(--red);margin-bottom:.7rem;font-size:1rem}
+.tips-box ul{list-style:none;display:flex;flex-direction:column;gap:6px}
+.tips-box li{color:var(--muted);font-size:.85rem;padding-left:1rem;position:relative;line-height:1.5}
+.tips-box li::before{content:'→';color:var(--red);position:absolute;left:0}
+@media(max-width:600px){.meal-time{min-width:100px;font-size:.7rem}}

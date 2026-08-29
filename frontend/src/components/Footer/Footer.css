@@ -1,0 +1,9 @@
+.footer{border-top:1px solid var(--border);background:var(--bg2);padding:3rem 2rem}
+.footer-inner{max-width:800px;margin:0 auto;text-align:center}
+.footer-logo{font-family:var(--display);font-size:1.7rem;letter-spacing:2px;margin-bottom:.6rem}
+.footer-logo span{color:var(--red)}
+.footer-inner>p{color:var(--muted);font-size:.88rem;margin-bottom:1.2rem}
+.footer-links{display:flex;gap:1.5rem;justify-content:center;flex-wrap:wrap;margin-bottom:1.2rem}
+.footer-links a{color:var(--muted);font-size:.85rem;transition:color .2s}
+.footer-links a:hover{color:var(--red)}
+.footer-copy{color:#444;font-size:.8rem}

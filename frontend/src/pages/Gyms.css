@@ -1,0 +1,7 @@
+.filter-bar{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-bottom:1.2rem}
+.filter-select{background:var(--card);border:1px solid var(--border);color:var(--text);padding:.6rem 1rem;border-radius:7px;font-size:.88rem;outline:none;min-width:140px}
+.filter-select:focus{border-color:rgba(224,48,48,.4)}
+.results-count{color:var(--muted);font-size:.85rem;margin-bottom:1rem}
+.no-results{color:var(--muted);text-align:center;padding:3rem 0;font-size:1rem}
+.gym-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem}
+@media(max-width:600px){.filter-bar{flex-direction:column}.filter-select{width:100%}}
